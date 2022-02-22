@@ -1,0 +1,22 @@
+// Font familly
+.font-base {
+    font-family: $font-base;
+}
+
+//Colors
+.t-white {
+    color: $color-white;
+    -webkit-text-stroke-color: $color-white;
+}
+
+.t-black {
+    color: $color-black;
+    -webkit-text-stroke-color: $color-black;
+}
+
+// Transformation
+.t-uppercase {text-transform: uppercase;}
+.t-outline {-webkit-text-stroke-width: 1px; color: transparent;}
+.t-align-right {text-align: right;}
+.t-rtl {direction: rtl;}
+.t-ltr {direction: ltr;}
